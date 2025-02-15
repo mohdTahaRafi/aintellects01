@@ -1,0 +1,38 @@
+# General
+.DS_Store
+*.log
+*.pyc
+__pycache__/
+.env
+.venv
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+*.pt
+*.mp4
+*.avi
+*.mov
+
+# React
+/build/
+/.next/
+/.cache/
+
+# Model weights (large files)
+assets/yolov8x.pt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker-compose.yml
+.dockerignore
